@@ -1,6 +1,4 @@
 from conexion import crear_conexion
-
-# Crear la conexión global y cursor
 conn = crear_conexion()
 cursor = conn.cursor()
 
